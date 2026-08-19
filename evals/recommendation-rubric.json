@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "candidate_metrics": [
+    {
+      "metric": "Intrinsic Pull",
+      "gate": ">=4/5",
+      "question": "If the anchor disappeared, would the book still be unusually compelling to encounter?"
+    },
+    {
+      "metric": "Personal Bridge Clarity",
+      "question": "Can the path from anchor to book be understood in one natural sentence?"
+    },
+    {
+      "metric": "Expansion Value",
+      "question": "Does it widen geography, period, form, mood, social world, or narrative method?"
+    },
+    {
+      "metric": "Concrete Promise",
+      "gate": ">=4/5",
+      "question": "Can we say what the reader will actually encounter without literary jargon?"
+    },
+    {
+      "metric": "Independent Editorial Value",
+      "gate": ">=4/5",
+      "question": "Does the book offer a distinctive hook beyond similarity?"
+    },
+    {
+      "metric": "Low Cognitive Load",
+      "gate": ">=4/5",
+      "question": "Can a casual reader understand the invitation without prior literary-history knowledge?"
+    }
+  ],
+  "set_rules": [
+    "Exactly three recommendations per anchor.",
+    "The three recommendations must use different primary attraction axes.",
+    "BRIDGE preserves more; EXPANSION preserves a meaningful affinity while changing important variables; EXPLORE needs only one credible handrail.",
+    "Expansion is prioritized over hit-rate maximization.",
+    "The book must glow independently from the recommendation rationale.",
+    "A historical relationship is evidence, not a selection quota."
+  ]
+}

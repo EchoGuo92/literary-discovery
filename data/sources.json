@@ -1,0 +1,110 @@
+[
+  {
+    "id": "src-garden-party-prh",
+    "kind": "book",
+    "title": "The Garden Party — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/301676/the-garden-party-and-other-stories-by-katherine-mansfield/"
+  },
+  {
+    "id": "src-hour-star-prh",
+    "kind": "book",
+    "title": "The Hour of the Star — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/826099/la-hora-de-la-estrella--the-hour-of-the-star-by-clarice-lispector/"
+  },
+  {
+    "id": "src-summer-book-nyrb",
+    "kind": "book",
+    "title": "The Summer Book — New York Review Books",
+    "url": "https://www.nyrb.com/products/the-summer-book"
+  },
+  {
+    "id": "src-age-innocence-mount",
+    "kind": "book",
+    "title": "Writing The Age of Innocence — The Mount",
+    "url": "https://edithwharton.org/writing-the-age-of-innocence-tour/"
+  },
+  {
+    "id": "src-excellent-women-prh",
+    "kind": "book",
+    "title": "Excellent Women — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/299909/excellent-women-by-barbara-pym/9780143104872/readers-guide/"
+  },
+  {
+    "id": "src-passing-prh",
+    "kind": "book",
+    "title": "Passing — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/696665/passing-by-nella-larsen-with-an-introduction-by-brit-bennett/"
+  },
+  {
+    "id": "src-runaway-prh",
+    "kind": "book",
+    "title": "Runaway — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/118615/runaway-by-alice-munro/readers-guide/"
+  },
+  {
+    "id": "src-family-lexicon-nyrb",
+    "kind": "book",
+    "title": "Family Lexicon — New York Review Books",
+    "url": "https://www.nyrb.com/products/a_family_lexicon"
+  },
+  {
+    "id": "src-pedro-paramo-prh",
+    "kind": "book",
+    "title": "Pedro Páramo — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/605926/pedro-paramo-spanish-edition-by-juan-rulfo/"
+  },
+  {
+    "id": "src-palm-wine-faber",
+    "kind": "book",
+    "title": "The Palm-Wine Drinkard — Faber",
+    "url": "https://www.faber.co.uk/product/9780571311538-the-palm-wine-drinkard/"
+  },
+  {
+    "id": "src-memory-police-prh",
+    "kind": "book",
+    "title": "The Memory Police — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/252774/the-memory-police-by-yoko-ogawa/"
+  },
+  {
+    "id": "src-gorilla-prh",
+    "kind": "book",
+    "title": "Gorilla, My Love — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/8081/gorilla-my-love-by-toni-cade-bambara/"
+  },
+  {
+    "id": "src-annie-john-macmillan",
+    "kind": "book",
+    "title": "Annie John — Macmillan",
+    "url": "https://us.macmillan.com/books/9780374525101/anniejohn/"
+  },
+  {
+    "id": "src-convenience-grove",
+    "kind": "book",
+    "title": "Convenience Store Woman — Grove Atlantic",
+    "url": "https://groveatlantic.com/book/convenience-store-woman/"
+  },
+  {
+    "id": "src-woolf-mansfield-cambridge",
+    "kind": "relationship",
+    "title": "Katherine Mansfield and Virginia Woolf — Cambridge University Press",
+    "url": "https://www.cambridge.org/core/books/katherine-mansfield-and-virginia-woolf/introduction-thinking-sideways-through-ones-sisters/78C05F793A5E8F4ACDCC890A1B804F53"
+  },
+  {
+    "id": "src-munro-chekhov-nobel",
+    "kind": "relationship",
+    "title": "Alice Munro podcast — Nobel Prize",
+    "url": "https://www.nobelprize.org/prizes/literature/2013/munro/podcast/"
+  },
+  {
+    "id": "src-marquez-rulfo-prh",
+    "kind": "relationship",
+    "title": "Pedro Páramo edition with Gabriel García Márquez introduction — Penguin Random House",
+    "url": "https://www.penguinrandomhouse.com/books/605926/pedro-paramo-spanish-edition-by-juan-rulfo/"
+  },
+  {
+    "id": "src-morrison-bambara-princeton",
+    "kind": "relationship",
+    "title": "Who Was Toni Morrison? — Princeton University Library",
+    "url": "https://dpul.princeton.edu/tonimorrison/feature/who-was-toni-morrison"
+  }
+]

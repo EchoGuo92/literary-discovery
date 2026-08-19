@@ -1,0 +1,248 @@
+[
+  {
+    "id": "virginia-woolf",
+    "signal": "她把时间、感受和意识本身变成小说的运动方式；真正重要的变化，常常先发生在人物尚未说出口的念头里。",
+    "context": "英国现代主义作家。她的小说与随笔持续改变了20世纪小说处理意识、时间与日常经验的方式。",
+    "name": "Virginia Woolf",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "",
+    "place": "",
+    "image": null
+  },
+  {
+    "id": "jane-austen",
+    "signal": "她写爱情，也写判断：谁误读了谁、一个房间里的礼貌意味着什么、社会规则怎样悄悄进入私人选择。",
+    "context": "英国小说家，以精确的社会观察、讽刺和人物判断闻名。",
+    "name": "Jane Austen",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "",
+    "place": "",
+    "image": null
+  },
+  {
+    "id": "anton-chekhov",
+    "signal": "他让普通人的迟疑、失败、习惯和小小决定获得真正的重量，同时很少替人物做最终裁决。",
+    "context": "俄国作家与剧作家，对现代短篇小说和现代戏剧的发展影响深远。",
+    "name": "Anton Chekhov",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "",
+    "place": "",
+    "image": null
+  },
+  {
+    "id": "gabriel-garcia-marquez",
+    "signal": "在他的小说里，家族记忆、历史、传闻与不可思议的事情可以自然地住在同一个现实里。",
+    "context": "哥伦比亚小说家，1982年诺贝尔文学奖得主，拉丁美洲20世纪文学的重要声音。",
+    "name": "Gabriel García Márquez",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "",
+    "place": "",
+    "image": null
+  },
+  {
+    "id": "toni-morrison",
+    "signal": "她把历史如何留在语言、家庭、身体与记忆里写得既具体又复杂，让人物从内部拥有自己的声音。",
+    "context": "美国小说家与编辑，1993年诺贝尔文学奖得主。她的作品长期关注黑人生活、历史、记忆与语言。",
+    "name": "Toni Morrison",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "",
+    "place": "",
+    "image": null
+  },
+  {
+    "id": "katherine-mansfield",
+    "signal": "她善于把极小的动作、停顿和注意力变化压缩进短篇，让人物的意识在一个瞬间悄悄改变方向。",
+    "context": "出生于新西兰、主要活跃于英国的现代主义短篇小说家，是现代短篇形式的重要革新者之一。",
+    "name": "Katherine Mansfield",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1888–1923",
+    "place": "New Zealand",
+    "image": {
+      "local_path": "./assets/portraits/katherine-mansfield.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "clarice-lispector",
+    "signal": "她会把“一个人如何感受、如何被讲述”直接变成小说的问题，语言常常既亲密又陌生。",
+    "context": "巴西小说家与短篇作家，20世纪葡萄牙语文学中极具辨识度的声音。",
+    "name": "Clarice Lispector",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1920–1977",
+    "place": "Brazil",
+    "image": {
+      "local_path": "./assets/portraits/clarice-lispector.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "tove-jansson",
+    "signal": "她能让天气、岛屿、一次散步或一段沉默承载完整的人际关系；文字安静，但观察并不柔弱。",
+    "context": "芬兰瑞典语作家与艺术家。除了姆明系列，她也创作了多部面向成人的小说与短篇。",
+    "name": "Tove Jansson",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1914–2001",
+    "place": "Finland",
+    "image": {
+      "local_path": "./assets/portraits/tove-jansson.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "edith-wharton",
+    "signal": "她特别擅长写一套社会规则如何在没有明文命令的情况下运转，并改变人物能够选择的人生。",
+    "context": "美国小说家与短篇作家。她以纽约上流社会、阶级、婚姻与社会约束的书写著称。",
+    "name": "Edith Wharton",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1862–1937",
+    "place": "United States",
+    "image": {
+      "local_path": "./assets/portraits/edith-wharton.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "barbara-pym",
+    "signal": "她把教会、邻居、单身生活和社交小尴尬写成高度精确的喜剧，尤其擅长观察那些总在别人故事边缘的人。",
+    "context": "英国小说家，以克制、机敏的社会喜剧和日常观察著称。",
+    "name": "Barbara Pym",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1913–1980",
+    "place": "United Kingdom",
+    "image": {
+      "local_path": "./assets/portraits/barbara-pym.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "nella-larsen",
+    "signal": "她用非常紧凑的小说处理身份、欲望和社会目光，让“别人怎样看你”成为真实而危险的力量。",
+    "context": "美国小说家，哈莱姆文艺复兴的重要作家之一，代表作包括《Passing》和《Quicksand》。",
+    "name": "Nella Larsen",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1891–1964",
+    "place": "United States",
+    "image": {
+      "local_path": "./assets/portraits/nella-larsen.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "alice-munro",
+    "signal": "她会让一个普通决定穿过多年时间后重新显出意义，让短篇拥有接近一生的纵深。",
+    "context": "加拿大短篇小说家，2013年诺贝尔文学奖得主，以精密的时间结构和普通生活书写闻名。",
+    "name": "Alice Munro",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1931–2024",
+    "place": "Canada",
+    "image": {
+      "local_path": "./assets/portraits/alice-munro.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "natalia-ginzburg",
+    "signal": "她相信家庭真正留下来的往往不是宏大解释，而是反复说过的话、争吵方式、习惯与记忆。",
+    "context": "意大利小说家、散文家与剧作家。她的作品常从家庭与私人语言进入更大的历史环境。",
+    "name": "Natalia Ginzburg",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1916–1991",
+    "place": "Italy",
+    "image": {
+      "local_path": "./assets/portraits/natalia-ginzburg.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "juan-rulfo",
+    "signal": "他的小说极度压缩：荒凉的地方、破碎的声音、过去与亡者不断进入现在，却几乎没有多余解释。",
+    "context": "墨西哥作家与摄影家。虽然文学作品数量不多，却对后来的拉丁美洲小说产生了深远影响。",
+    "name": "Juan Rulfo",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1917–1986",
+    "place": "Mexico",
+    "image": {
+      "local_path": "./assets/portraits/juan-rulfo.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "amos-tutuola",
+    "signal": "他的小说像口头故事不断长出新的路：怪事不需要被解释，声音、节奏和想象力本身推动旅程。",
+    "context": "尼日利亚作家，以英语写作，并将Yoruba民间故事与口述叙事资源带入极具个人风格的小说。",
+    "name": "Amos Tutuola",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1920–1997",
+    "place": "Nigeria",
+    "image": {
+      "local_path": "./assets/portraits/amos-tutuola.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "yoko-ogawa",
+    "signal": "她常用非常平静、克制的语言写令人不安的设定，让恐惧从日常秩序内部慢慢出现。",
+    "context": "日本当代小说家，作品跨越心理小说、寓言与带有推想色彩的文学小说。",
+    "name": "Yoko Ogawa",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1962–",
+    "place": "Japan",
+    "image": {
+      "local_path": "./assets/portraits/yoko-ogawa.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "toni-cade-bambara",
+    "signal": "她让孩子、女孩与社区人物用自己的节奏和判断说话，语言有口语的速度，也有很强的道德认真。",
+    "context": "美国作家、编辑、教师与电影工作者，以短篇小说和黑人社区生活的书写著称。",
+    "name": "Toni Cade Bambara",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1939–1995",
+    "place": "United States",
+    "image": {
+      "local_path": "./assets/portraits/toni-cade-bambara.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "jamaica-kincaid",
+    "signal": "她的第一人称声音往往亲密、尖锐而不妥协，能把成长、母女关系和殖民历史压进非常个人的经验里。",
+    "context": "出生于安提瓜的作家，长期在美国写作，代表作包括《Annie John》《Lucy》《A Small Place》。",
+    "name": "Jamaica Kincaid",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1949–",
+    "place": "Antigua / United States",
+    "image": {
+      "local_path": "./assets/portraits/jamaica-kincaid.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  },
+  {
+    "id": "sayaka-murata",
+    "signal": "她用冷面、几乎字面化的眼光看所谓“正常生活”，让社会最熟悉的规则突然显得非常奇怪。",
+    "context": "日本当代小说家。《便利店人间》获得芥川奖，并以对社会规范与异质生活方式的观察广受关注。",
+    "name": "Sayaka Murata",
+    "content_status": "CURATED_EDITORIAL",
+    "years": "1979–",
+    "place": "Japan",
+    "image": {
+      "local_path": "./assets/portraits/sayaka-murata.webp",
+      "type": "APPROVED_EDITORIAL_LIKENESS",
+      "style": "Writer Portrait System v1 — production crop"
+    }
+  }
+]

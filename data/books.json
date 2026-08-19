@@ -1,0 +1,198 @@
+[
+  {
+    "id": "the-garden-party",
+    "title": "The Garden Party",
+    "title_zh": "花园聚会",
+    "writer_id": "katherine-mansfield",
+    "writer": "Katherine Mansfield",
+    "premise": "一个正在准备花园宴会的下午，一则突如其来的消息，让年轻的 Laura 第一次意识到：她所熟悉的、漂亮而有秩序的生活，并不是世界的全部。",
+    "special": "Mansfield 很少替 Laura 把感受总结成一个清楚的结论。她更依赖帽子、食物、停顿、尴尬和突然改变的注意力，让一个人的意识在细节里慢慢偏移。",
+    "mood": "轻盈、明亮、敏感，底下始终有一点不安。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-garden-party-prh"
+    ]
+  },
+  {
+    "id": "the-hour-of-the-star",
+    "title": "The Hour of the Star",
+    "title_zh": "星辰时刻",
+    "writer_id": "clarice-lispector",
+    "writer": "Clarice Lispector",
+    "premise": "Macabéa 是一个从巴西东北部来到里约热内卢的年轻打字员。她收入微薄，生活单调，几乎没有人真正注意她。小说由一个名叫 Rodrigo S. M. 的男性叙述者来讲她的故事；他并不躲在幕后，而是会不断插入自己的想法、判断和犹豫。",
+    "special": "所以你同时在读两件事：Macabéa 怎样生活，以及 Rodrigo 怎样试图理解她。他比她更有知识、更会表达，却并不因此真的懂她；小说的锋利之处，就在这两者之间的距离。",
+    "mood": "瘦削、古怪、克制，有一点荒诞，也有持续的刺痛感。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-hour-star-prh"
+    ]
+  },
+  {
+    "id": "the-summer-book",
+    "title": "The Summer Book",
+    "title_zh": "夏日之书",
+    "writer_id": "tove-jansson",
+    "writer": "Tove Jansson",
+    "premise": "六岁的 Sophia 和祖母在芬兰湾的一座小岛上度过夏天。她们沿海岸和树林走动，造树皮船、争执、聊天，也一起面对天气和岛上那些很小的意外。",
+    "special": "小说几乎不依靠传统的大情节前进。一次散步、一场争执、做一艘小船，都可以成为完整的一段；Jansson 不急着总结祖孙关系，而让亲密、自由和孤独从相处里自己出现。",
+    "mood": "平静、明亮、清醒，偶尔有一点孤独。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-summer-book-nyrb"
+    ]
+  },
+  {
+    "id": "the-age-of-innocence",
+    "title": "The Age of Innocence",
+    "title_zh": "纯真年代",
+    "writer_id": "edith-wharton",
+    "writer": "Edith Wharton",
+    "premise": "1870 年代的纽约上流社会里，年轻律师 Newland Archer 正准备与 May Welland 结婚。May 从欧洲归来的表姐 Ellen Olenska 重新进入这个圈子后，一个原本已经由家族、礼仪和社会期待安排好的未来开始变得不再那么确定。",
+    "special": "Wharton 写得最锋利的不是“个人反抗社会”，而是这套社会规则为什么能够运转：很多约束并不需要谁公开下命令，只要所有人都知道什么能说、什么不能做、什么会让一个人失去位置。",
+    "mood": "克制、精致、冷静，人与人之间一直有没有说破的张力。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-age-innocence-mount"
+    ]
+  },
+  {
+    "id": "excellent-women",
+    "title": "Excellent Women",
+    "title_zh": null,
+    "writer_id": "barbara-pym",
+    "writer": "Barbara Pym",
+    "premise": "1950 年代的伦敦，Mildred Lathbury 是一个生活安静的单身女人，平时去教会、做些慈善工作。新邻居和朋友的婚姻与感情麻烦不断把她卷进去，大家似乎都默认她会听、会帮忙、也会替别人收拾残局。",
+    "special": "Pym 把一个通常不会成为“爱情故事中心”的女人放到叙述中心。Mildred 的位置看似边缘，却让她成为异常敏锐的观察者；小说的幽默常常来自她看得比别人清楚，却仍然被当成那个可靠的帮手。",
+    "mood": "机敏、克制、好笑，表面平静，下面有一点讽刺和孤独。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-excellent-women-prh"
+    ]
+  },
+  {
+    "id": "passing",
+    "title": "Passing",
+    "title_zh": null,
+    "writer_id": "nella-larsen",
+    "writer": "Nella Larsen",
+    "premise": "1920 年代的 Harlem，Irene Redfield 重新遇见童年朋友 Clare Kendry。两个人都是肤色较浅的黑人女性，但 Clare 已经长期以白人身份生活，甚至连她带有种族偏见的白人丈夫也不知道她的黑人出身。",
+    "special": "小说最紧张的地方不只是 Clare 的秘密，而是 Irene 对她既被吸引又感到不安。Larsen 让身份变成一件会随着谁在看、你和谁在一起而改变风险的事情。",
+    "mood": "优雅、紧绷、暧昧，越往里越不安。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-passing-prh"
+    ]
+  },
+  {
+    "id": "runaway",
+    "title": "Runaway",
+    "title_zh": "逃离",
+    "writer_id": "alice-munro",
+    "writer": "Alice Munro",
+    "premise": "这组故事写的是一些看起来并不戏剧化的人生节点：有人想离开一段关系，有人多年后重新遇见过去，有人直到很久以后才重新理解自己当年几乎像偶然一样做出的选择。",
+    "special": "Munro 经常让时间重新解释一件事。故事不会总在“决定发生”的地方结束；几年、几十年以后，同一个动作可能突然有了另一层含义，让短篇获得接近长篇的人生纵深。",
+    "mood": "平静、清醒、亲近，随后常常突然显出复杂甚至残酷的一面。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-runaway-prh"
+    ]
+  },
+  {
+    "id": "family-lexicon",
+    "title": "Family Lexicon",
+    "title_zh": null,
+    "writer_id": "natalia-ginzburg",
+    "writer": "Natalia Ginzburg",
+    "premise": "Ginzburg 回到自己在都灵长大的家庭：做科学家的父亲、母亲、兄弟姐妹，以及一家人几十年来不断重复的口头禅、怪话、争吵和笑话。与此同时，法西斯主义和战争逐渐进入他们原本非常日常的生活。",
+    "special": "这本书把语言当成家庭档案。Ginzburg 不需要先告诉你“父亲是什么样的人”，一句他反复说了几十年的话就可能把这个人带回来；私人记忆和历史也因此不是两条分开的线。",
+    "mood": "朴素、热闹、直接，家庭喜剧底下慢慢压进历史的重量。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-family-lexicon-nyrb"
+    ]
+  },
+  {
+    "id": "pedro-paramo",
+    "title": "Pedro Páramo",
+    "title_zh": "佩德罗·巴拉莫",
+    "writer_id": "juan-rulfo",
+    "writer": "Juan Rulfo",
+    "premise": "母亲去世后，Juan Preciado 按照她留下的请求前往 Comala，寻找自己从未真正认识的父亲 Pedro Páramo。抵达之后，他发现这里不像一个正常运转的城镇，更像一个被过去和各种声音占据的地方。",
+    "special": "Rulfo 不把过去和现在、活人与亡者整理成清楚的层次。声音不断出现，时间也会突然移动，读者需要自己一点点拼出这个镇子曾经发生过什么。",
+    "mood": "干燥、幽暗、压缩，像走进一座仍然在低声说话的废墟。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-pedro-paramo-prh"
+    ]
+  },
+  {
+    "id": "the-palm-wine-drinkard",
+    "title": "The Palm-Wine Drinkard",
+    "title_zh": null,
+    "writer_id": "amos-tutuola",
+    "writer": "Amos Tutuola",
+    "premise": "叙述者最离不开的是棕榈酒。专门替他酿酒的人突然死去以后，他做了一个非常直接的决定：亲自出发，去亡者的世界把这个人找回来。",
+    "special": "接下来的故事不像一条严密铺好的现实主义情节，更像不断向前长出的口述冒险：怪异的人、地点和事件一个接一个出现，重要的是声音、节奏和想象力怎样把旅程继续推下去。",
+    "mood": "野、怪、快，有时很好笑，也经常让人措手不及。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-palm-wine-faber"
+    ]
+  },
+  {
+    "id": "the-memory-police",
+    "title": "The Memory Police",
+    "title_zh": null,
+    "writer_id": "yoko-ogawa",
+    "writer": "Yoko Ogawa",
+    "premise": "一座无名岛屿上的东西会一个接一个消失：某种物品、鸟、花……多数人也会随之忘记它们为什么曾经重要。少数仍然记得的人，则要躲避负责确保“消失之物被彻底遗忘”的 Memory Police。",
+    "special": "Ogawa 最不安的地方，是消失并不总以灾难的姿态发生。人们会照常工作、收拾东西、适应新的生活；小说的恐惧感就来自这种平静地接受失去，以及有人坚持记住时所承担的风险。",
+    "mood": "安静、冷、梦一样克制，但持续有越来越深的压迫感。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-memory-police-prh"
+    ]
+  },
+  {
+    "id": "gorilla-my-love",
+    "title": "Gorilla, My Love",
+    "title_zh": null,
+    "writer_id": "toni-cade-bambara",
+    "writer": "Toni Cade Bambara",
+    "premise": "这组短篇里有第一次尝到背叛滋味的女孩，有不顾成年子女反对去追求自己生活的寡妇，也有街区里和成年人正面交锋的人物。故事不断回到家庭、社区、承诺、公平这些非常具体的冲突。",
+    "special": "Bambara 很特别的一点，是她让孩子和年轻人的声音拥有完整的判断力。他们会看穿成年人，也会坚持自己关于什么算守约、什么算不公平的标准；小说因此同时有很强的口语活力和道德认真。",
+    "mood": "有活力、机敏、直接，常常很好笑，但并不轻飘。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-gorilla-prh"
+    ]
+  },
+  {
+    "id": "annie-john",
+    "title": "Annie John",
+    "title_zh": "安妮·约翰",
+    "writer_id": "jamaica-kincaid",
+    "writer": "Jamaica Kincaid",
+    "premise": "Annie 在 Antigua 长大，小时候几乎把母亲当作整个世界。到了青春期，母亲开始把她当作需要被塑造成“年轻女士”的女儿，原本亲密得没有缝隙的关系也逐渐变成控制、反抗和分离。",
+    "special": "Kincaid 几乎一直贴着 Annie 自己的感觉走，所以成长不是一条抽象的“独立之路”，而是一种很具体的失去：一个曾经最熟悉、最安全的人，为什么会慢慢变成自己最想摆脱的人。",
+    "mood": "亲密、明亮、尖锐；越往后越有一种爱没有消失、但关系已经改变的疼痛。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-annie-john-macmillan"
+    ]
+  },
+  {
+    "id": "convenience-store-woman",
+    "title": "Convenience Store Woman",
+    "title_zh": "便利店人间",
+    "writer_id": "sayaka-murata",
+    "writer": "Sayaka Murata",
+    "premise": "Keiko 36 岁，在同一家便利店工作了 18 年。她喜欢店里的操作规则、节奏和明确分工，也觉得这样的生活很适合自己；问题是周围的人都认定，一个这个年龄、没有结婚、仍然做便利店工作的女人不应该满足于现状。",
+    "special": "小说的幽默来自 Keiko 和“正常社会”之间的错位。便利店那套人工制定的规则，反而比外面的婚姻、职业和人生期待更容易理解；读着读着，真正显得奇怪的未必还是 Keiko。",
+    "mood": "干净、冷面、古怪、很好笑，同时有一点持续的不适。",
+    "content_status": "VERIFIED_EDITORIAL",
+    "source_ids": [
+      "src-convenience-grove"
+    ]
+  }
+]

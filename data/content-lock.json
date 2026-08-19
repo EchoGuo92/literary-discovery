@@ -1,0 +1,16 @@
+{
+  "content_version": "home-content-v0.5-reader-approved",
+  "status": "FROZEN_FOR_VISUAL_IMPLEMENTATION",
+  "source_review_artifact": "literary_discovery_home_integrated_review_v0_5.json",
+  "rule": "Visual implementation may change layout/CSS/interaction only. Any change to locked reader-facing text requires an explicit content version bump and reader review.",
+  "files": {
+    "data/books.json": {
+      "sha256": "4add7cc30befe241735f6a83bc899b531548a37eab5a702c24dda525ead30927",
+      "bytes": 11982
+    },
+    "data/recommendation_paths.json": {
+      "sha256": "4b8ba8ae1843dbb3c0a5815da49d39760f0976996d8be4af8cad9e8520ffaa5c",
+      "bytes": 6385
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "system": "Home Hero Visual System v1.1",
+  "release": "RC v0.9.5",
+  "status": "PRODUCTION_LOCK",
+  "count": 14,
+  "principles": [
+    "Editorial illustration, not photorealistic scene recreation.",
+    "Reading Mood first; plot illustration second.",
+    "Concrete enough to enter the book's world, but not so literal that it dictates one interpretation.",
+    "No ending, final fate, hidden identity, or decisive later reversal.",
+    "Stable 16:9 assets, local WebP, no external image dependency."
+  ],
+  "heroes": {
+    "the-garden-party": {
+      "book": "The Garden Party",
+      "asset": "assets/heroes/the-garden-party.webp",
+      "production_source_artifact": "edwardian_garden_tea_party.png",
+      "mode": "core social setting",
+      "note": "Garden-party atmosphere and Laura-like observer; supports surface elegance + underlying unease without depicting the later off-site encounter."
+    },
+    "the-hour-of-the-star": {
+      "book": "The Hour of the Star",
+      "asset": "assets/heroes/the-hour-of-the-star.webp",
+      "production_source_artifact": "twilight_overlook_by_the_bay.png",
+      "mode": "mood + geography",
+      "note": "Rio urban overlook with a socially marginal young woman; avoids illustrating the novel's ending or a specific late plot event."
+    },
+    "the-summer-book": {
+      "book": "The Summer Book",
+      "asset": "assets/heroes/the-summer-book.webp",
+      "production_source_artifact": "seaside_cottage_companions.png",
+      "mode": "core setting",
+      "note": "Finnish-island summer, child-and-older-companion relationship, rocky shore and cottage; non-plot-specific."
+    },
+    "the-age-of-innocence": {
+      "book": "The Age of Innocence",
+      "asset": "assets/heroes/the-age-of-innocence.webp",
+      "production_source_artifact": "victorian_opera_box_reverie.png",
+      "mode": "social world",
+      "note": "Gilded-Age New York high-society spectacle and observation; evokes etiquette and constraint without fixing a specific canonical scene."
+    },
+    "excellent-women": {
+      "book": "Excellent Women",
+      "asset": "assets/heroes/excellent-women.webp",
+      "production_source_artifact": "mid_century_london_neighborhood_vignettes.png",
+      "mode": "social world montage",
+      "note": "Postwar London, parish/neighborhood/domestic social life; intentionally atmospheric rather than a literal single scene."
+    },
+    "passing": {
+      "book": "Passing",
+      "asset": "assets/heroes/passing.webp",
+      "production_source_artifact": "reflections_in_a_midnight_speakeasy.png",
+      "mode": "social tension",
+      "note": "1920s urban social interior with doubled/reflected female figures; expresses unstable identity and observation without revealing outcome."
+    },
+    "runaway": {
+      "book": "Runaway",
+      "asset": "assets/heroes/runaway.webp",
+      "production_source_artifact": "contemplative_walk_toward_the_water.png",
+      "mode": "decision-space mood",
+      "note": "Rural departure/threshold image; captures Munro's ordinary-life turning points without claiming a specific story event."
+    },
+    "family-lexicon": {
+      "book": "Family Lexicon",
+      "asset": "assets/heroes/family-lexicon.webp",
+      "production_source_artifact": "letters_by_the_open_window.png",
+      "mode": "family + historical atmosphere",
+      "note": "Italian family interior, papers, conversation, wartime public presence outside; supports private language/history interplay without literalizing one memoir episode."
+    },
+    "pedro-paramo": {
+      "book": "Pedro Páramo",
+      "asset": "assets/heroes/pedro-paramo.webp",
+      "production_source_artifact": "desolate_mission_road_at_sunset.png",
+      "mode": "core setting",
+      "note": "Desolate Mexican town approached by a traveler; Comala-like atmosphere, no explicit revelation about the town's inhabitants."
+    },
+    "the-palm-wine-drinkard": {
+      "book": "The Palm-Wine Drinkard",
+      "asset": "assets/heroes/the-palm-wine-drinkard.webp",
+      "production_source_artifact": "mystical_journey_through_the_golden_valley.png",
+      "mode": "mythic journey",
+      "note": "Yoruba-inflected fantastical journey world; intentionally nonliteral composite, avoiding one-to-one depiction of a named creature or episode."
+    },
+    "the-memory-police": {
+      "book": "The Memory Police",
+      "asset": "assets/heroes/the-memory-police.webp",
+      "production_source_artifact": "nostalgic_coastal_window_with_blossoms.png",
+      "mode": "mood + setting",
+      "note": "Quiet island/coastal domestic space with distant authority figures and traces of memory; avoids specifying exactly what disappears when."
+    },
+    "gorilla-my-love": {
+      "book": "Gorilla, My Love",
+      "asset": "assets/heroes/gorilla-my-love.webp",
+      "production_source_artifact": "sunlit_neighborhood_block_gathering.png",
+      "mode": "community energy",
+      "note": "Black neighborhood/community scene centered on a child's observational position; composite rather than a literal story event."
+    },
+    "annie-john": {
+      "book": "Annie John",
+      "asset": "assets/heroes/annie-john.webp",
+      "production_source_artifact": "sunlit_shadows_by_the_caribbean_sea.png",
+      "mode": "relationship + setting",
+      "note": "Antiguan domestic/coastal setting with daughter and mother held at emotional distance; no later-development spoiler."
+    },
+    "convenience-store-woman": {
+      "book": "Convenience Store Woman",
+      "asset": "assets/heroes/convenience-store-woman.webp",
+      "production_source_artifact": "cherry_blossom_convenience_store_at_dusk.png",
+      "mode": "core setting + mood",
+      "note": "Japanese convenience-store exterior and socially solitary female figure; conveys rule-bound normality vs private fit without plot claims."
+    }
+  }
+}

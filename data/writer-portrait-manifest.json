@@ -1,0 +1,86 @@
+{
+  "system": "Writer Portrait System v1",
+  "release": "RC v0.9.4",
+  "status": "PRODUCTION_LOCK",
+  "count": 14,
+  "rules": [
+    "Every Home recommendation writer uses a local approved portrait asset.",
+    "No external image hotlinks.",
+    "No initials fallback.",
+    "Writer Snapshot is informational and non-clickable.",
+    "Identity accuracy has priority over style uniformity.",
+    "Natalia Ginzburg remains an accepted controlled style exception from the identity-safety workflow."
+  ],
+  "portraits": {
+    "katherine-mansfield": {
+      "asset": "assets/portraits/katherine-mansfield.webp",
+      "source_artifact": "a_clean_editorial_layout_poster_image_in_a_neutra.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "clarice-lispector": {
+      "asset": "assets/portraits/clarice-lispector.webp",
+      "source_artifact": "a_clean_editorial_identity_reference_style_layout.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "tove-jansson": {
+      "asset": "assets/portraits/tove-jansson.webp",
+      "source_artifact": "a_clean_editorial_reference_portrait_comparison_p.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "edith-wharton": {
+      "asset": "assets/portraits/edith-wharton.webp",
+      "source_artifact": "a_clean_editorial_infographic_like_layout_on_a_w.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "barbara-pym": {
+      "asset": "assets/portraits/barbara-pym.webp",
+      "source_artifact": "barbara_pym_portrait_system_guide.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "nella-larsen": {
+      "asset": "assets/portraits/nella-larsen.webp",
+      "source_artifact": "nella_larsen_writer_portrait_style_guide.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "alice-munro": {
+      "asset": "assets/portraits/alice-munro.webp",
+      "source_artifact": "a_clean_editorial_infographic_style_identity_por.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "natalia-ginzburg": {
+      "asset": "assets/portraits/natalia-ginzburg.webp",
+      "source_artifact": "a_clean_editorial_beige_cream_textured_design_la.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "juan-rulfo": {
+      "asset": "assets/portraits/juan-rulfo.webp",
+      "source_artifact": "a_clean_elegant_editorial_infographic_portrait_s.png",
+      "production_crop": "approved right-side portrait"
+    },
+    "amos-tutuola": {
+      "asset": "assets/portraits/amos-tutuola.webp",
+      "source_artifact": "elderly_man_in_graphite_portrait.png",
+      "production_crop": "approved standalone portrait"
+    },
+    "yoko-ogawa": {
+      "asset": "assets/portraits/yoko-ogawa.webp",
+      "source_artifact": "serene_graphite_portrait_with_pearls.png",
+      "production_crop": "approved standalone portrait"
+    },
+    "toni-cade-bambara": {
+      "asset": "assets/portraits/toni-cade-bambara.webp",
+      "source_artifact": "graphite_portrait_with_hand_and_plaid_shirt.png",
+      "production_crop": "approved standalone portrait"
+    },
+    "jamaica-kincaid": {
+      "asset": "assets/portraits/jamaica-kincaid.webp",
+      "source_artifact": "graphite_portrait_of_a_dignified_woman.png",
+      "production_crop": "approved standalone portrait"
+    },
+    "sayaka-murata": {
+      "asset": "assets/portraits/sayaka-murata.webp",
+      "source_artifact": "graphite_portrait_of_an_east_asian_woman.png",
+      "production_crop": "approved standalone portrait"
+    }
+  }
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "anchor_id": "virginia-woolf",
+    "anchor": "Virginia Woolf",
+    "recommendations": [
+      {
+        "role": "BRIDGE",
+        "book_id": "the-garden-party",
+        "bridge": "Woolf 和 Mansfield 不只是同时代作家，她们认识彼此，也认真读过对方的作品。如果你喜欢 Woolf 捕捉一个念头还没有变成结论之前的状态，Mansfield 会把这种敏感压缩进更短、更快的形式里。",
+        "bridge_type": "HISTORICAL_CONNECTION",
+        "source_ids": [
+          "src-woolf-mansfield-cambridge"
+        ]
+      },
+      {
+        "role": "EXPANSION",
+        "book_id": "the-hour-of-the-star",
+        "bridge": "如果 Woolf 吸引你的是她会让人物的意识直接进入小说，Lispector 又加了一层：除了人物本身，你还会一直意识到——是谁在替这个人物讲故事。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPLORE",
+        "book_id": "the-summer-book",
+        "bridge": "它离 Woolf 的都市与现代主义实验已经很远，但对瞬间感受、关系中未说出口之物的敏锐仍然在，只是变得更安静、更透明。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      }
+    ]
+  },
+  {
+    "anchor_id": "jane-austen",
+    "anchor": "Jane Austen",
+    "recommendations": [
+      {
+        "role": "BRIDGE",
+        "book_id": "the-age-of-innocence",
+        "bridge": "如果你喜欢 Austen 让人物不断读懂一个房间里那些没有说出口的规则，Wharton 会给你相似的阅读乐趣，只是旧纽约的规则更封闭，也更有惩罚性。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPANSION",
+        "book_id": "excellent-women",
+        "bridge": "如果你喜欢 Austen 看人、看误会、看社交分寸的幽默，Pym 会保留这种乐趣，却把恋爱中心稍微移开，让你跟着一个总在别人故事边上的女人去看整个小社会。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPLORE",
+        "book_id": "passing",
+        "bridge": "Austen 很擅长写一个人如何在社会目光里维持一个可被理解的自己；Larsen 保留了“被别人看见”这件事，却把它放进种族身份里，让被看懂或看错的代价完全改变。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      }
+    ]
+  },
+  {
+    "anchor_id": "anton-chekhov",
+    "anchor": "Anton Chekhov",
+    "recommendations": [
+      {
+        "role": "BRIDGE",
+        "book_id": "runaway",
+        "bridge": "Munro 自己谈过年轻时读 Chekhov，最打动她的是他赋予普通生活的分量。从 Chekhov 到 Munro，很自然的一点正是这种认真，只是 Munro 常把后果拉到更长的时间里。",
+        "bridge_type": "HISTORICAL_CONNECTION",
+        "source_ids": [
+          "src-munro-chekhov-nobel"
+        ]
+      },
+      {
+        "role": "EXPANSION",
+        "book_id": "family-lexicon",
+        "bridge": "如果你喜欢 Chekhov 用几句对话就让一个人显形，Ginzburg 会把这种能力从一个场景扩大到整个家庭：不是靠解释，而是让他们反复说过的话替他们留下来。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPLORE",
+        "book_id": "the-summer-book",
+        "bridge": "如果 Chekhov 让你相信生活不需要先发生一件“大事”才值得被写，Jansson 会把这种尺度的注意力带到一座小岛上：她同样愿意认真看那些看起来几乎什么都没发生的时刻。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      }
+    ]
+  },
+  {
+    "anchor_id": "gabriel-garcia-marquez",
+    "anchor": "Gabriel García Márquez",
+    "recommendations": [
+      {
+        "role": "BRIDGE",
+        "book_id": "pedro-paramo",
+        "bridge": "Rulfo 是 Márquez 很重要的文学前辈，Márquez 也曾为《Pedro Páramo》的版本写过前言。从 Márquez 来读它，很像往前走到一个更短、更荒凉的源头：活人、亡者和记忆已经可以自然地待在同一个世界里。",
+        "bridge_type": "HISTORICAL_CONNECTION",
+        "source_ids": [
+          "src-marquez-rulfo-prh"
+        ]
+      },
+      {
+        "role": "EXPANSION",
+        "book_id": "the-palm-wine-drinkard",
+        "bridge": "如果你喜欢 Márquez 的世界里，不可能的事情发生以后叙述并不会停下来解释，Tutuola 会给你同样的自由感，但它来自完全不同的西非与 Yoruba 口述故事传统。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPLORE",
+        "book_id": "the-memory-police",
+        "bridge": "Márquez 经常让记忆把现实变得更厚；Ogawa 几乎把这个问题反过来：如果一个社会不断把记忆从现实里抽走，最后还会剩下什么？",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      }
+    ]
+  },
+  {
+    "anchor_id": "toni-morrison",
+    "anchor": "Toni Morrison",
+    "recommendations": [
+      {
+        "role": "BRIDGE",
+        "book_id": "gorilla-my-love",
+        "bridge": "Morrison 在 Random House 做编辑时曾编辑、指导过 Bambara。如果你想从 Morrison 走向一种更快、更年轻、也更接近日常说话的声音，Bambara 是一条很自然的路。",
+        "bridge_type": "HISTORICAL_CONNECTION",
+        "source_ids": [
+          "src-morrison-bambara-princeton"
+        ]
+      },
+      {
+        "role": "EXPANSION",
+        "book_id": "annie-john",
+        "bridge": "如果你会被 Morrison 笔下那些既有爱、又并不简单的亲密关系吸引，Kincaid 会把视线收得更近，只留下一个女孩和她母亲之间不断改变的距离。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      },
+      {
+        "role": "EXPLORE",
+        "book_id": "convenience-store-woman",
+        "bridge": "如果你对人物怎样面对别人替她定义的“正确人生”感兴趣，Murata 会把这个问题带到一个非常日常、甚至有点荒谬的地方：一间东京便利店。",
+        "bridge_type": "EDITORIAL_BRIDGE",
+        "source_ids": []
+      }
+    ]
+  }
+]

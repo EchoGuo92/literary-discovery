@@ -9,7 +9,7 @@ const ZH={
  want:"想读",read:"我读过",not:"不太感兴趣",statusWant:"想读",statusRead:"已读",
  empty:"还没有留下任何书。Home 里的“想读”和“我读过”会把书带到这里。",
  backLibrary:"← 返回 Library",reflectButton:"聊聊这本书",reflectTitle:"聊聊我的阅读",close:"关闭",
- reflectPrompt:"说说你现在想到的就好。",reflectPlaceholder:"写下你现在想到的……",save:"保存",
+ reflectPlaceholder:"写下你现在想到的……",save:"保存",
  toastRemoved:"已取消",toastWant:"已加入想读",toastRead:"已记录",toastNot:"已记录",toastSaved:"已保存",
  switchRecommendations:"切换推荐",prevRecommendation:"上一条推荐",nextRecommendation:"下一条推荐",
  languageLabel:"切换语言",pageDescription:"Literary Discovery — 从熟悉的作家出发，向三个有意识的方向扩展阅读。"
@@ -38,7 +38,16 @@ function ui(){return STATE.lang==="en"?STATE.data.en.ui:ZH}
 function localized(group,id,key,fallback){return STATE.lang==="en"?(STATE.data.en[group]?.[id]?.[key]||fallback):fallback}
 function bookText(b,key){return localized("books",b.id,key,b[key])}
 function writerText(w,key){return localized("writers",w.id,key,w[key])}
-function relationText(r){return STATE.lang==="en"?(STATE.data.en.bridges?.[STATE.anchorId]?.[r.book_id]||r.bridge):r.bridge}
+function relationText(r,anchorId=STATE.anchorId){return STATE.lang==="en"?(STATE.data.en.bridges?.[anchorId]?.[r.book_id]||r.bridge):r.bridge}
+function recommendationForBook(bookId){
+ const l=load(),sources=l.bookSources||{},paths=Object.values(STATE.data.paths);
+ const candidates=paths.filter(p=>p.recommendations.some(r=>r.book_id===bookId));
+ const stored=STATE.data.paths[sources[bookId]],current=STATE.data.paths[STATE.anchorId];
+ const source=stored?.recommendations.some(r=>r.book_id===bookId)?stored:current?.recommendations.some(r=>r.book_id===bookId)?current:candidates[0];
+ if(!source)return null;
+ if(sources[bookId]!==source.anchor_id){l.bookSources={...sources,[bookId]:source.anchor_id};save(l)}
+ return {anchorId:source.anchor_id,recommendation:source.recommendations.find(r=>r.book_id===bookId)}
+}
 function pathLabel(anchor){return STATE.lang==="en"?`From <strong>${esc(anchor)}</strong>`:`从 <strong>${esc(anchor)}</strong> 出发`}
 function recommendationLabel(i){return STATE.lang==="en"?`Recommendation ${i+1}`:`第 ${i+1} 条推荐`}
 function applyLanguage(){
@@ -55,7 +64,7 @@ async function boot(){
   fetch("./data/books.json").then(r=>r.json()),
   fetch("./data/writers.json").then(r=>r.json()),
   fetch("./data/recommendation_paths.json").then(r=>r.json()),
-  fetch("./data/en.json").then(r=>r.json())
+  fetch("./data/en.json?v=20260819-3").then(r=>r.json())
  ]);
  STATE.data={books:Object.fromEntries(books.map(x=>[x.id,x])),writers:Object.fromEntries(writers.map(x=>[x.id,x])),paths:Object.fromEntries(paths.map(x=>[x.anchor_id,x])),en};
  const l=load(),q=new URLSearchParams(window.location.search).get("lang"),detected=(navigator.language||"").toLowerCase().startsWith("zh")?"zh":"en";
@@ -112,17 +121,23 @@ function bookBody(b,bridge,pathline=true){
  </main>`;
 }
 function home(){const {r,b}=current();return `<div class="site"><div class="shell">${header("home")}<div id="swipeArea">${bookBody(b,relationText(r),true)}</div>${mobileNav("home")}</div></div>`}
-function setStatus(id,s){const l=load(),u=ui();l.books=l.books||{};if(l.books[id]===s){delete l.books[id];toast(u.toastRemoved)}else{l.books[id]=s;toast(s==="want"?u.toastWant:s==="read"?u.toastRead:u.toastNot)}save(l);render()}
+function setStatus(id,s){
+ const l=load(),u=ui();l.books=l.books||{};l.bookSources=l.bookSources||{};
+ const onHome=STATE.route==="home"&&STATE.data.paths[STATE.anchorId]?.recommendations.some(r=>r.book_id===id);
+ if(l.books[id]===s){delete l.books[id];delete l.bookSources[id];toast(u.toastRemoved)}
+ else{l.books[id]=s;if(onHome)l.bookSources[id]=STATE.anchorId;if(s==="not")delete l.bookSources[id];toast(s==="want"?u.toastWant:s==="read"?u.toastRead:u.toastNot)}
+ save(l);render()
+}
 function library(){
  const l=load(),statuses=l.books||{},refs=l.reflections||{},u=ui();
  const items=Object.entries(statuses).filter(([,s])=>s==="want"||s==="read");
  return `<div class="site"><div class="shell">${header("library")}<main class="library"><h1 class="page-title">${u.library}</h1>${items.length?items.map(([id,s])=>{const b=STATE.data.books[id];return `<button class="list-card" onclick="go('book',{bookId:'${id}'})"><span class="mini-art"><img src="./assets/heroes/${id}.webp" alt="" aria-hidden="true"></span><span class="list-copy"><strong>${esc(b.title)}</strong><small>${esc(b.writer)} · ${s==="read"?u.statusRead:u.statusWant}</small>${refs[id]?`<div class="reflection-preview">${esc(refs[id].slice(0,90))}${refs[id].length>90?"…":""}</div>`:""}</span></button>`}).join(""):`<div class="empty">${u.empty}</div>`}</main>${mobileNav("library")}</div></div>`;
 }
-function bookPage(){const b=STATE.data.books[STATE.bookId],u=ui();return `<div class="site"><div class="shell">${header("")}<main class="book-detail"><button class="back" onclick="back()">${u.backLibrary}</button>${bookBody(b,null,false)}<button class="reflection-btn" onclick="openReflection('${b.id}')">${u.reflectButton}</button></main>${mobileNav("")}</div></div>`}
+function bookPage(){const b=STATE.data.books[STATE.bookId],u=ui(),source=recommendationForBook(b.id),bridge=source?relationText(source.recommendation,source.anchorId):null;return `<div class="site"><div class="shell">${header("")}<main class="book-detail"><button class="back" onclick="back()">${u.backLibrary}</button>${bookBody(b,bridge,false)}<button class="reflection-btn" onclick="openReflection('${b.id}')">${u.reflectButton}</button></main>${mobileNav("")}</div></div>`}
 function back(){STATE.route=STATE.lastRoute||"library";render();window.scrollTo(0,0)}
 function openReflection(id){
  const l=load(),existing=(l.reflections||{})[id]||"",b=STATE.data.books[id],u=ui();
- document.body.insertAdjacentHTML("beforeend",`<div class="overlay" id="overlay" onclick="if(event.target===this)this.remove()"><div class="modal"><div class="modal-head"><h2>${u.reflectTitle}</h2><button class="close" aria-label="${esc(u.close)}" onclick="$('#overlay').remove()">×</button></div><p>${esc(b.title)} · ${u.reflectPrompt}</p><textarea id="refText" placeholder="${esc(u.reflectPlaceholder)}">${esc(existing)}</textarea><button class="save" onclick="saveReflection('${id}')">${u.save}</button></div></div>`)
+ document.body.insertAdjacentHTML("beforeend",`<div class="overlay" id="overlay" onclick="if(event.target===this)this.remove()"><div class="modal"><div class="modal-head"><h2>${u.reflectTitle}</h2><button class="close" aria-label="${esc(u.close)}" onclick="$('#overlay').remove()">×</button></div><p>${esc(b.title)}</p><textarea id="refText" placeholder="${esc(u.reflectPlaceholder)}">${esc(existing)}</textarea><button class="save" onclick="saveReflection('${id}')">${u.save}</button></div></div>`)
 }
 function saveReflection(id){const t=$("#refText").value.trim(),l=load();l.reflections=l.reflections||{};if(t)l.reflections[id]=t;else delete l.reflections[id];save(l);$("#overlay").remove();toast(ui().toastSaved)}
 function attachSwipe(){const el=$("#swipeArea");if(!el)return;let x=null;el.addEventListener("touchstart",e=>x=e.touches[0].clientX,{passive:true});el.addEventListener("touchend",e=>{if(x===null)return;const dx=e.changedTouches[0].clientX-x;if(Math.abs(dx)>55){const n=STATE.data.paths[STATE.anchorId].recommendations.length;STATE.cardIndex=dx<0?Math.min(n-1,STATE.cardIndex+1):Math.max(0,STATE.cardIndex-1);render();window.scrollTo(0,0)}x=null},{passive:true})}

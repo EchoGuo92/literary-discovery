@@ -1,0 +1,216 @@
+{
+  "ui": {
+    "home": "Home",
+    "library": "Library",
+    "brandAria": "Choose another writer",
+    "coldEyebrow": "FAMILIAR ENTRY · DELIBERATE EXPANSION",
+    "coldTitle": "Which writer has been on your mind lately?",
+    "coldSub": "Start with a writer you already know.",
+    "startHere": "Start here →",
+    "chooseWriter": "Choose another writer",
+    "specialHeading": "What makes this book distinctive",
+    "connectionHeading": "Why it connects",
+    "moodLabel": "Reading Mood",
+    "writerInfo": "Writer information",
+    "want": "Want to read",
+    "read": "I've read it",
+    "not": "Not for me",
+    "statusWant": "Want to read",
+    "statusRead": "Read",
+    "empty": "Nothing here yet. Books you mark “Want to read” or “I've read it” on Home will appear here.",
+    "backLibrary": "← Back to Library",
+    "reflectButton": "Reflect on this book",
+    "reflectTitle": "Reading notes",
+    "reflectPrompt": "Start with whatever is on your mind.",
+    "reflectPlaceholder": "Write what you're thinking…",
+    "save": "Save",
+    "close": "Close",
+    "toastRemoved": "Removed",
+    "toastWant": "Added to Want to Read",
+    "toastRead": "Saved as read",
+    "toastNot": "Noted",
+    "toastSaved": "Saved",
+    "switchRecommendations": "Switch recommendations",
+    "prevRecommendation": "Previous recommendation",
+    "nextRecommendation": "Next recommendation",
+    "languageLabel": "Language",
+    "pageDescription": "Literary Discovery — begin with a familiar writer and move in three deliberately different directions."
+  },
+  "books": {
+    "the-garden-party": {
+      "premise": "On an afternoon set aside for a garden party, sudden news reaches the Sheridan household. For young Laura, it is the first real breach in the beautiful, orderly world she has always taken for granted.",
+      "special": "Mansfield rarely tells Laura what her feelings amount to. She lets hats, food, pauses, embarrassment, and sudden shifts of attention register the movement instead, catching a mind just as it begins to change direction.",
+      "mood": "Light · sunlit · finely alert · unease just beneath the surface"
+    },
+    "the-hour-of-the-star": {
+      "premise": "Macabéa, a young typist from Brazil’s northeast, has come to Rio de Janeiro. She is poor, her days are narrow, and almost no one truly notices her. Her story is told by a male narrator, Rodrigo S. M., who refuses to stay out of sight: he keeps interrupting with his own judgments, doubts, and hesitations.",
+      "special": "You are reading two stories at once: Macabéa’s life, and Rodrigo’s attempt to make sense of it. He is more educated and more articulate, but not necessarily any closer to understanding her. The novel’s sharpness lives in that distance.",
+      "mood": "Spare · strange · restrained · absurd at the edges · quietly painful"
+    },
+    "the-summer-book": {
+      "premise": "Six-year-old Sophia and her grandmother spend the summer on a small island in the Gulf of Finland. They walk the shoreline and woods, make boats from bark, argue, talk, and face the weather and the island’s small emergencies together.",
+      "special": "The novel barely relies on conventional plot. A walk, an argument, or the making of a tiny boat can become a complete episode. Jansson never rushes to define the bond between grandmother and child; intimacy, freedom, and solitude emerge from the way they share time.",
+      "mood": "Calm · bright · clear-eyed · occasionally lonely"
+    },
+    "the-age-of-innocence": {
+      "premise": "In the closed world of 1870s New York society, young lawyer Newland Archer is preparing to marry May Welland. Then May’s cousin Ellen Olenska returns from Europe, and a future that seemed fully arranged by family, manners, and expectation begins to lose its certainty.",
+      "special": "Wharton’s sharpest subject is not simply an individual rebelling against society, but the way a social order sustains itself. No one needs to issue commands when everyone already knows what may be said, what must remain unspoken, and what can cost a person their place.",
+      "mood": "Restrained · polished · cool · charged with what no one says aloud"
+    },
+    "excellent-women": {
+      "premise": "In 1950s London, Mildred Lathbury lives a quiet single life shaped by church, modest charity work, and familiar routines. New neighbors and friends keep drawing her into their romantic and marital troubles; everyone seems to assume that Mildred will listen, help, and clear up the aftermath.",
+      "special": "Pym places at the center a woman who would usually stand just outside the main love story. Mildred’s supposedly marginal position makes her an unusually exact observer. Much of the comedy comes from how clearly she sees other people while they continue to treat her as the dependable helper.",
+      "mood": "Wry · restrained · very funny · touched by irony and solitude"
+    },
+    "passing": {
+      "premise": "In 1920s Harlem, Irene Redfield encounters her childhood friend Clare Kendry again. Both are light-skinned Black women, but Clare has been living as white for years—and even her openly racist white husband does not know her background.",
+      "special": "The novel’s deepest tension lies not only in Clare’s secret, but in Irene’s mixture of attraction and alarm. Larsen makes identity contingent on who is looking and who is in the room, turning recognition itself into a source of risk.",
+      "mood": "Elegant · taut · ambiguous · increasingly uneasy"
+    },
+    "runaway": {
+      "premise": "These stories turn on moments that may not look dramatic at first: someone considers leaving a relationship, someone meets the past again after many years, someone only much later understands a choice that once seemed almost accidental.",
+      "special": "Munro lets time reinterpret an event. Her stories do not necessarily end where the decision is made; years or decades later, the same action can acquire another meaning, giving the short story the depth and reach of a whole life.",
+      "mood": "Calm · lucid · intimate · suddenly complex, sometimes cruel"
+    },
+    "family-lexicon": {
+      "premise": "Ginzburg returns to the Turin household in which she grew up: her scientist father, her mother, her siblings, and the sayings, odd phrases, arguments, and jokes the family repeats for decades. Meanwhile, fascism and war move steadily into their intensely ordinary lives.",
+      "special": "Here, language becomes a family archive. Ginzburg does not need to explain what her father was like when one phrase he repeated for years can bring him back whole. Private memory and public history are never separate lines.",
+      "mood": "Plainspoken · lively · direct · family comedy under the weight of history"
+    },
+    "pedro-paramo": {
+      "premise": "After his mother dies, Juan Preciado travels to Comala to find the father he never really knew, Pedro Páramo. What he reaches does not feel like a functioning town so much as a place occupied by the past—and by voices that have never gone silent.",
+      "special": "Rulfo refuses to arrange past and present, the living and the dead, into clean layers. Voices surface without warning and time shifts beneath the reader, who must piece together what happened to the town and the people who remain inside it.",
+      "mood": "Dry · dark · compressed · a ruin still speaking under its breath"
+    },
+    "the-palm-wine-drinkard": {
+      "premise": "The narrator’s great necessity is palm wine. When the man who taps it for him suddenly dies, he makes a perfectly direct decision: he will travel to the land of the dead and bring him back.",
+      "special": "What follows is less a tightly plotted realist journey than an oral adventure continually growing new branches. Strange people, places, and events arrive one after another; voice, rhythm, and imaginative momentum matter more than explanation.",
+      "mood": "Wild · strange · fast · often funny · constantly surprising"
+    },
+    "the-memory-police": {
+      "premise": "On an unnamed island, things disappear one by one: objects, birds, flowers. Most people soon forget why they ever mattered. The few who still remember must hide from the Memory Police, whose task is to make every disappearance complete.",
+      "special": "What makes Ogawa so unsettling is that disappearance rarely arrives as spectacle. People keep working, clear away what has vanished, and adapt. The fear comes from that calm acceptance of loss—and from the danger faced by anyone who insists on remembering.",
+      "mood": "Quiet · cold · dreamlike · restrained · steadily oppressive"
+    },
+    "gorilla-my-love": {
+      "premise": "These stories follow girls confronting their first taste of betrayal, a widow choosing a life her grown children oppose, and neighborhood characters willing to challenge adults face to face. Again and again, they return to family, community, promises, and fairness as immediate, lived questions.",
+      "special": "Bambara gives children and young people full powers of judgment. They see through adults and hold firmly to their own standards of what counts as a promise or an injustice. The result has the speed of spoken language and a moral seriousness that never feels solemn.",
+      "mood": "Energetic · quick-witted · direct · funny without ever becoming slight"
+    },
+    "annie-john": {
+      "premise": "Annie grows up in Antigua with a mother who, in childhood, seems to contain her whole world. As Annie enters adolescence, her mother begins treating her as a daughter who must be shaped into a proper young lady, and their seamless intimacy gives way to control, resistance, and separation.",
+      "special": "Kincaid stays close to Annie’s own sensations, so growing up never becomes an abstract story of independence. It feels like a particular kind of loss: how the person who was once safest and most familiar can become the person one most needs to escape.",
+      "mood": "Intimate · bright · sharp · the ache of love surviving a changed relationship"
+    },
+    "convenience-store-woman": {
+      "premise": "Keiko is thirty-six and has worked in the same convenience store for eighteen years. She likes its rules, rhythms, and clear division of tasks; the life suits her. The problem is everyone else’s conviction that an unmarried woman of her age should not be content with it.",
+      "special": "The comedy comes from the mismatch between Keiko and the world that calls itself normal. The store’s artificial rules are easier to understand than society’s expectations about marriage, work, and a proper life. Before long, Keiko may no longer be the strangest thing in the novel.",
+      "mood": "Clean · deadpan · odd · very funny · persistently uncomfortable"
+    }
+  },
+  "writers": {
+    "virginia-woolf": {
+      "signal": "She makes time, sensation, and consciousness the movement of the novel; the decisive change often begins in a thought before a character can put it into words.",
+      "context": "A British modernist writer whose novels and essays reshaped how twentieth-century fiction could handle consciousness, time, and everyday experience."
+    },
+    "jane-austen": {
+      "signal": "She writes about love, but also about judgment: who misreads whom, what politeness means inside a room, and how social rules enter private choices.",
+      "context": "An English novelist celebrated for exact social observation, irony, and the intelligence with which her characters judge—and misjudge—one another."
+    },
+    "anton-chekhov": {
+      "signal": "He gives real weight to ordinary hesitation, failure, habit, and small decisions, while rarely delivering a final verdict on his characters.",
+      "context": "A Russian writer and playwright whose work profoundly influenced the development of the modern short story and modern drama."
+    },
+    "gabriel-garcia-marquez": {
+      "signal": "In his fiction, family memory, history, rumor, and impossible events can inhabit the same reality without strain.",
+      "context": "A Colombian novelist, winner of the 1982 Nobel Prize in Literature, and one of the defining voices of twentieth-century Latin American writing."
+    },
+    "toni-morrison": {
+      "signal": "She makes history’s presence in language, family, the body, and memory both concrete and complex, while giving her characters voices from within.",
+      "context": "An American novelist and editor, winner of the 1993 Nobel Prize in Literature, whose work transformed the literary representation of Black life, history, memory, and language."
+    },
+    "katherine-mansfield": {
+      "signal": "She compresses tiny gestures, pauses, and shifts of attention into short fiction, letting a character’s consciousness change direction almost imperceptibly.",
+      "context": "A New Zealand-born modernist short-story writer who worked primarily in Britain and became one of the form’s most important innovators."
+    },
+    "clarice-lispector": {
+      "signal": "She turns the questions of how a person feels—and how that person is narrated—into the substance of fiction, in language that can feel intimate and estranging at once.",
+      "context": "A Brazilian novelist and short-story writer, and one of the most distinctive voices in twentieth-century Portuguese-language literature."
+    },
+    "tove-jansson": {
+      "signal": "Weather, an island, a walk, or a silence can carry an entire relationship in her work; the writing is quiet, but the observation is never soft.",
+      "context": "A Finnish-Swedish writer and artist who, beyond the Moomin books, wrote several novels and story collections for adults."
+    },
+    "edith-wharton": {
+      "signal": "She is especially alert to the way a social order can govern people without issuing explicit commands, quietly narrowing the lives available to them.",
+      "context": "An American novelist and short-story writer known for her fiction about New York society, class, marriage, and social constraint."
+    },
+    "barbara-pym": {
+      "signal": "She turns churches, neighbors, single life, and minor social embarrassments into exact comedy, with particular attention to people standing at the edge of someone else’s story.",
+      "context": "An English novelist known for restrained, quick-witted social comedy and exceptionally precise observation of everyday life."
+    },
+    "nella-larsen": {
+      "signal": "In tightly made novels, she brings identity, desire, and social scrutiny into dangerous proximity, making the gaze of others a material force.",
+      "context": "An American novelist and an important writer of the Harlem Renaissance, best known for Passing and Quicksand."
+    },
+    "alice-munro": {
+      "signal": "She lets an ordinary decision travel through years before revealing another meaning, giving short fiction the depth of an entire life.",
+      "context": "A Canadian short-story writer, winner of the 2013 Nobel Prize in Literature, known for intricate structures of time and exact attention to ordinary lives."
+    },
+    "natalia-ginzburg": {
+      "signal": "For her, what a family leaves behind is rarely a grand explanation; it is the phrases, arguments, habits, and memories repeated over years.",
+      "context": "An Italian novelist, essayist, and playwright whose work often enters history through family life and private language."
+    },
+    "juan-rulfo": {
+      "signal": "His fiction is radically compressed: barren places, broken voices, the past, and the dead enter the present with almost no excess explanation.",
+      "context": "A Mexican writer and photographer whose small body of literary work exerted an enormous influence on later Latin American fiction."
+    },
+    "amos-tutuola": {
+      "signal": "His fiction grows new paths like an oral tale: strangeness needs no explanation, and voice, rhythm, and invention carry the journey forward.",
+      "context": "A Nigerian writer who wrote in English and brought Yoruba folklore and oral narrative into fiction of unmistakably individual force."
+    },
+    "yoko-ogawa": {
+      "signal": "Her calm, restrained prose often holds deeply unsettling premises, allowing fear to emerge from inside ordinary order.",
+      "context": "A contemporary Japanese novelist whose work moves among psychological fiction, fable, and speculative literary fiction."
+    },
+    "toni-cade-bambara": {
+      "signal": "She lets children, girls, and community figures speak in their own rhythms and judgments, combining the speed of speech with moral seriousness.",
+      "context": "An American writer, editor, teacher, and filmmaker known especially for her short fiction and her writing about Black community life."
+    },
+    "jamaica-kincaid": {
+      "signal": "Her first-person voices are intimate, sharp, and uncompromising, compressing coming of age, mother-daughter bonds, and colonial history into personal experience.",
+      "context": "An Antigua-born writer long based in the United States, known for works including Annie John, Lucy, and A Small Place."
+    },
+    "sayaka-murata": {
+      "signal": "Her deadpan, almost literal gaze makes the rules of “normal life” suddenly appear very strange.",
+      "context": "A contemporary Japanese novelist whose Convenience Store Woman won the Akutagawa Prize and drew wide attention for its view of social norms and nonconforming lives."
+    }
+  },
+  "bridges": {
+    "virginia-woolf": {
+      "the-garden-party": "Woolf and Mansfield were not simply contemporaries: they knew one another and read each other’s work closely. If you respond to Woolf’s ability to catch a thought before it hardens into a conclusion, Mansfield compresses that sensitivity into a shorter, quicker form.",
+      "the-hour-of-the-star": "If Woolf draws you in by allowing a character’s consciousness to enter the novel directly, Lispector adds another layer: you remain acutely aware of who is doing the telling, and of what that narrator cannot quite understand.",
+      "the-summer-book": "Jansson is far from Woolf’s cities and modernist experiments, yet the sensitivity to passing perception—and to what remains unsaid inside a relationship—is still there, made quieter and more transparent."
+    },
+    "jane-austen": {
+      "the-age-of-innocence": "If you enjoy the way Austen’s characters continually read the unspoken rules of a room, Wharton offers a related pleasure—but old New York’s rules are more enclosed, and more punitive.",
+      "excellent-women": "If you enjoy Austen’s comedy of observation, misunderstanding, and social measure, Pym keeps that pleasure while shifting romance away from the center. You see the whole small society through a woman usually left at the edge of other people’s stories.",
+      "passing": "Austen is acutely aware of how a person maintains a legible self under social scrutiny. Larsen keeps the pressure of being seen, but places it inside racial passing, where the stakes of being read correctly—or wrongly—are transformed."
+    },
+    "anton-chekhov": {
+      "runaway": "Munro spoke of reading Chekhov as a young writer and being struck by the weight he gave ordinary life. That seriousness makes the path from Chekhov to Munro feel natural, though Munro often extends the consequences across a much longer span of time.",
+      "family-lexicon": "If you value Chekhov’s ability to reveal a person in a few lines of dialogue, Ginzburg expands that gift across an entire family. She explains very little; the phrases they repeat over decades do the remembering for her.",
+      "the-summer-book": "If Chekhov convinces you that life need not produce a “major event” before it deserves attention, Jansson carries that scale of notice to a small island. She is equally willing to look closely at moments in which almost nothing seems to happen."
+    },
+    "gabriel-garcia-marquez": {
+      "pedro-paramo": "Rulfo was a crucial literary precursor for Márquez, who also wrote a foreword to an edition of Pedro Páramo. Read from Márquez, the novel feels like a journey back to a shorter, more desolate source, where the living, the dead, and memory already share one world.",
+      "the-palm-wine-drinkard": "If you enjoy the way impossible events occur in Márquez without bringing the narrative to a halt for explanation, Tutuola offers a similar freedom from an entirely different West African and Yoruba oral tradition.",
+      "the-memory-police": "Márquez often makes reality denser through memory. Ogawa nearly reverses the question: if a society keeps removing memory from reality, what will finally remain?"
+    },
+    "toni-morrison": {
+      "gorilla-my-love": "While working as an editor at Random House, Morrison edited and mentored Bambara. If you want to move from Morrison toward a voice that is quicker, younger, and closer to everyday speech, Bambara is a natural path.",
+      "annie-john": "If you are drawn to the intimate relationships in Morrison that hold love without ever becoming simple, Kincaid narrows the frame to the changing distance between one girl and her mother.",
+      "convenience-store-woman": "If you are interested in how a character lives under other people’s definitions of the “right life,” Murata carries that question into an utterly ordinary—and faintly absurd—setting: a Tokyo convenience store."
+    }
+  }
+}

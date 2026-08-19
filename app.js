@@ -39,12 +39,16 @@ function header(active){
 function mobileNav(active){return `<nav class="mobile-nav"><button class="${active==="home"?"active":""}" onclick="go('home')">Home</button><button class="${active==="library"?"active":""}" onclick="go('library')">Library</button></nav>`}
 function cold(){
  const as=Object.values(STATE.data.paths);
- return `<div class="site"><div class="shell">${header("")}<main class="cold"><div class="eyebrow">Familiar entry · deliberate expansion</div><h1>最近想到哪些书或作家？</h1><p>从一个你已经想到的作家开始。</p><div class="anchor-list">${as.map(a=>`<button class="anchor-choice" onclick="setAnchor('${a.anchor_id}')"><strong>${esc(a.anchor)}</strong><span>从这里开始 →</span></button>`).join("")}</div></main></div></div>`;
+ return `<div class="site"><div class="shell">${header("home")}<main class="cold"><div class="eyebrow">Familiar entry · deliberate expansion</div><h1>最近想到哪些书或作家？</h1><p>从一个你已经想到的作家开始。</p><div class="anchor-list">${as.map(a=>`<button class="anchor-choice" onclick="setAnchor('${a.anchor_id}')"><strong>${esc(a.anchor)}</strong><span>从这里开始 →</span></button>`).join("")}</div></main></div></div>`;
 }
 function setAnchor(id){STATE.anchorId=id;STATE.cardIndex=0;STATE.route="home";const l=load();l.anchorId=id;save(l);render();window.scrollTo(0,0)}
 function resetAnchor(){const l=load();delete l.anchorId;save(l);STATE.anchorId=null;STATE.route="cold";render();window.scrollTo(0,0)}
-function go(route,extra={}){STATE.lastRoute=STATE.route;STATE.route=route;Object.assign(STATE,extra);render();window.scrollTo(0,0)}
+function go(route,extra={}){if(route==="home"&&!STATE.anchorId)route="cold";STATE.lastRoute=STATE.route;STATE.route=route;Object.assign(STATE,extra);render();window.scrollTo(0,0)}
 function setCard(i){STATE.cardIndex=i;render();window.scrollTo(0,0)}
+function cardControls(){
+ const n=STATE.data.paths[STATE.anchorId].recommendations.length,i=STATE.cardIndex;
+ return `<div class="card-nav" aria-label="切换推荐"><button class="card-arrow" aria-label="上一条推荐" onclick="setCard(${i-1})" ${i===0?"disabled":""}>‹</button><span class="swipe-cue" aria-hidden="true">↔</span><button class="card-arrow" aria-label="下一条推荐" onclick="setCard(${i+1})" ${i===n-1?"disabled":""}>›</button></div>`;
+}
 function current(){const p=STATE.data.paths[STATE.anchorId],r=p.recommendations[STATE.cardIndex];return {p,r,b:STATE.data.books[r.book_id]}}
 function moodWords(m){return m.replace(/[，。；]/g," · ").replace(/\s*·\s*/g," · ").replace(/·\s*$/,"")}
 function hero(b){
@@ -54,7 +58,7 @@ function hero(b){
 }
 function bookBody(b,bridge,pathline=true){
  const l=load(),status=(l.books||{})[b.id]||null,w=STATE.data.writers[b.writer_id];
- return `<main class="home">${pathline?`<div class="pathline"><span>从 <strong>${esc(STATE.data.paths[STATE.anchorId].anchor)}</strong> 出发</span><button class="link-btn" onclick="resetAnchor()">换一个入口</button></div><div class="dots">${STATE.data.paths[STATE.anchorId].recommendations.map((_,i)=>`<button class="dot ${i===STATE.cardIndex?"active":""}" aria-label="Recommendation ${i+1}" onclick="setCard(${i})"></button>`).join("")}</div>`:""}
+ return `<main class="home">${pathline?`<div class="pathline"><span>从 <strong>${esc(STATE.data.paths[STATE.anchorId].anchor)}</strong> 出发</span><button class="link-btn" onclick="resetAnchor()">换一个入口</button></div><div class="dots">${STATE.data.paths[STATE.anchorId].recommendations.map((_,i)=>`<button class="dot ${i===STATE.cardIndex?"active":""}" aria-label="第 ${i+1} 条推荐" ${i===STATE.cardIndex?'aria-current="true"':""} onclick="setCard(${i})"></button>`).join("")}</div>`:""}
  ${hero(b)}
  <p class="premise">${esc(b.premise)}</p>
  <section class="judgment-grid">
@@ -71,6 +75,7 @@ function bookBody(b,bridge,pathline=true){
    <button class="action secondary ${status==="read"?"selected":""}" onclick="setStatus('${b.id}','read')">我读过</button>
    <button class="action tertiary ${status==="not"?"selected":""}" onclick="setStatus('${b.id}','not')">不太感兴趣</button>
  </div>
+ ${pathline?cardControls():""}
  </main>`;
 }
 function home(){const {p,r,b}=current();return `<div class="site"><div class="shell">${header("home")}<div id="swipeArea">${bookBody(b,r.bridge,true)}</div>${mobileNav("home")}</div></div>`}
